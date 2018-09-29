@@ -1,1 +1,3 @@
-# JS-Workshop
+# JavaScript-Workshop
+
+Practicing JavaScript Skills
