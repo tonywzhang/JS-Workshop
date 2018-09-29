@@ -42,10 +42,13 @@ inventors.reduce((acc, inv) => acc + (inv.passed)-(inv.year), 0);
 
 // 5. Sort the inventors by years lived
 
-console.log(inventors.sort((invA, invB) => (invB.passed-invB.year)-(invA.passed-invA.year)));
+inventors.sort((invA, invB) => (invB.passed-invB.year)-(invA.passed-invA.year));
+// console.log(inventors.sort((invA, invB) => (invB.passed-invB.year)-(invA.passed-invA.year)));
 
 // 6. sort Exercise
 // Sort the people alphabetically by last name
+
+console.log(inventors.sort((invA,invB) => (invB.last - invA.last)));
 
 // 7. Reduce Exercise
 // Sum up the instances of each of these
